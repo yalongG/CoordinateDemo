@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="LandView">
+        <attr name="land_width" format="dimension" />  <!--线宽 -->
+        <attr name="land_color" format="color" />   <!--线颜色 -->
+        <attr name="fill_color" format="color" />   <!--线填充色 -->
+    </declare-styleable>
+</resources>
