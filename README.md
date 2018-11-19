@@ -69,3 +69,26 @@
     }
 ```
 
+自定义LandView。
+
+```java
+  <declare-styleable name="LandView">
+        <attr name="land_width" format="dimension" />  <!--线宽 -->
+        <attr name="land_color" format="color" />   <!--线颜色 -->
+        <attr name="fill_color" format="color" />   <!--线填充色 -->
+    </declare-styleable>
+```
+
+```java
+  <com.coordinate.demo.LandView
+        android:id="@+id/landView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:fill_color="@android:color/holo_red_dark"
+        app:land_color="@android:color/white"
+        app:land_width="2dp" />
+```
+
