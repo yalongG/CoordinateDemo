@@ -2,11 +2,9 @@
 
 一个小的坐标转化工具，可以将坐标点或其他的点，转化到自定义的view上面。
 
-![Screenshot_2018-11-19-16-38-02-304_com.coordinate.guoyalong.coordinatedemo](Screenshot_2018-11-19-16-38-02-304_com.coordinate.guoyalong.coordinatedemo.png)
+<img src="screenshot1.png"  width="300px">
 
-![Screenshot_2018-11-19-16-38-09-440_com.coordinate.guoyalong.coordinatedemo](Screenshot_2018-11-19-16-38-09-440_com.coordinate.guoyalong.coordinatedemo.png)
-
-
+<img src="screenshot2.png"  width="300px">
 
 可以将地图上勾画的区域，通过转化，得到制定大小View上面的坐标点。View宽高要相等。
 
